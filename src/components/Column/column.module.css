@@ -1,0 +1,30 @@
+
+
+.columnContainer{
+
+    max-width: 250px;
+    min-width: 250px;
+    min-height: 100vh;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+
+}
+
+
+.columnHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.columnBody{
+    display: 'flex';
+    flex-direction: 'column';
+    flex-wrap: wrap;
+    gap:10px;
+    padding: 1em;
+    flex:1;
+}

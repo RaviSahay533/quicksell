@@ -1,5 +1,5 @@
 import './user_icon.css'
-import { FaCircle } from 'react-icons/fa6'
+import { FaCircle } from 'react-icons/fa'
 
 const UserIcon = ({ intials, available, bgColor }) => {
     console.log(bgColor);
